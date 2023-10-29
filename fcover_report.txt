@@ -1,0 +1,1598 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /pack_alsu
+=== Design Unit: work.pack_alsu
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na    97.64%
+        Coverpoints/Crosses         15        na        na        na
+            Covergroup Bins        368       328        40    89.13%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_alsu/managing_inputs/cvr_gp                97.64%        100          -    Uncovered            
+    covered/total bins:                                   328        368          -                      
+    missing/total bins:                                    40        368          -                      
+    % Hit:                                             89.13%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_6                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_7                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_8                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_9                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_10                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                   87.03%        100          -    Uncovered            
+        covered/total bins:                                94        108          -                      
+        missing/total bins:                                14        108          -                      
+        % Hit:                                         87.03%        100          -                      
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__2#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__3#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__4#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+    Cross #cross__5#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+    Cross #cross__6#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/pack_alsu::managing_inputs::cvr_gp  
+                                                       97.64%        100          -    Uncovered            
+    covered/total bins:                                   328        368          -                      
+    missing/total bins:                                    40        368          -                      
+    % Hit:                                             89.13%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                      17240          1          -    Covered              
+        bin data_max                                    16860          1          -    Covered              
+        bin data_min                                    16522          1          -    Covered              
+        bin Data_walkingones                           222995          1          -    Covered              
+        default bin data_default                        46352                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                      17786          1          -    Covered              
+        bin data_max                                   191083          1          -    Covered              
+        bin data_min                                    16152          1          -    Covered              
+        bin Data_walkingones                            47534          1          -    Covered              
+        default bin data_default                        47044                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                           41834          1          -    Covered              
+        bin Bins_shift[ROTATE]                          40938          1          -    Covered              
+        bin Bins_arith[ADD]                             41676          1          -    Covered              
+        bin Bins_arith[MULT]                            41224          1          -    Covered              
+        bin Bins_bitwise[OR]                            40695          1          -    Covered              
+        bin Bins_bitwise[XOR]                           40662          1          -    Covered              
+        bin Bins_invalid                                56418          1          -    Covered              
+        bin Bins_trans                                  25000          1          -    Covered              
+    Coverpoint ALSU_6                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_cin                                    303447          1          -    Covered              
+    Coverpoint ALSU_7                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_serial_in                              303447          1          -    Covered              
+    Coverpoint ALSU_8                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_direction                              303447          1          -    Covered              
+    Coverpoint ALSU_9                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_red_op_A                               303447          1          -    Covered              
+    Coverpoint ALSU_10                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_red_op_B                               303447          1          -    Covered              
+    Cross #cross__0#                                   87.03%        100          -    Uncovered            
+        covered/total bins:                                94        108          -                      
+        missing/total bins:                                14        108          -                      
+        % Hit:                                         87.03%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Data_walkingones,Data_walkingones,Bins_invalid> 
+                                                         4366          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_invalid> 
+                                                         1482          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_invalid> 
+                                                         1458          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_invalid> 
+                                                         1778          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[XOR]> 
+                                                         2250          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          748          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          800          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          870          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[OR]> 
+                                                         2180          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[OR]> 
+                                                          858          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_bitwise[OR]> 
+                                                          690          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[OR]> 
+                                                          918          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[MULT]> 
+                                                         2234          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[MULT]> 
+                                                          772          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_arith[MULT]> 
+                                                          816          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[MULT]> 
+                                                          750          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[ROTATE]> 
+                                                         2246          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          808          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          792          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          744          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[ADD]> 
+                                                         2094          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[ADD]> 
+                                                          852          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_arith[ADD]> 
+                                                          816          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[ADD]> 
+                                                          968          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[SHIFT]> 
+                                                         2302          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          856          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          852          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          788          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_invalid> 
+                                                         1432          1          -    Covered              
+            bin <data_min,data_min,Bins_invalid>          498          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_bitwise[XOR]> 
+                                                          668          1          -    Covered              
+            bin <data_min,data_min,Bins_bitwise[XOR]> 
+                                                          298          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_bitwise[OR]> 
+                                                          730          1          -    Covered              
+            bin <data_min,data_min,Bins_bitwise[OR]> 
+                                                          224          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_arith[MULT]> 
+                                                          826          1          -    Covered              
+            bin <data_min,data_min,Bins_arith[MULT]> 
+                                                          364          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_shift[ROTATE]> 
+                                                          822          1          -    Covered              
+            bin <data_min,data_min,Bins_shift[ROTATE]> 
+                                                          296          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_arith[ADD]> 
+                                                          728          1          -    Covered              
+            bin <data_min,data_min,Bins_arith[ADD]> 
+                                                          290          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_shift[SHIFT]> 
+                                                          798          1          -    Covered              
+            bin <data_min,data_min,Bins_shift[SHIFT]> 
+                                                          324          1          -    Covered              
+            bin <data_max,data_min,Bins_invalid>          366          1          -    Covered              
+            bin <data_0,data_min,Bins_invalid>            614          1          -    Covered              
+            bin <data_max,data_min,Bins_bitwise[XOR]> 
+                                                          316          1          -    Covered              
+            bin <data_0,data_min,Bins_bitwise[XOR]> 
+                                                          380          1          -    Covered              
+            bin <data_max,data_min,Bins_bitwise[OR]> 
+                                                          280          1          -    Covered              
+            bin <data_0,data_min,Bins_bitwise[OR]>        270          1          -    Covered              
+            bin <data_max,data_min,Bins_shift[ROTATE]> 
+                                                          278          1          -    Covered              
+            bin <data_0,data_min,Bins_shift[ROTATE]> 
+                                                          246          1          -    Covered              
+            bin <data_max,data_min,Bins_shift[SHIFT]> 
+                                                          276          1          -    Covered              
+            bin <data_0,data_min,Bins_shift[SHIFT]> 
+                                                          248          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_trans> 
+                                                        25000          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_invalid> 
+                                                        26560          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[XOR]> 
+                                                        25486          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[OR]> 
+                                                        25719          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[MULT]> 
+                                                        25908          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[ROTATE]> 
+                                                        25700          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[ADD]> 
+                                                        25800          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[SHIFT]> 
+                                                        25666          1          -    Covered              
+            bin <data_min,data_max,Bins_invalid>          528          1          -    Covered              
+            bin <data_min,data_max,Bins_bitwise[XOR]> 
+                                                          122          1          -    Covered              
+            bin <data_min,data_max,Bins_bitwise[OR]> 
+                                                          220          1          -    Covered              
+            bin <data_min,data_max,Bins_shift[ROTATE]> 
+                                                          312          1          -    Covered              
+            bin <data_min,data_max,Bins_shift[SHIFT]> 
+                                                          260          1          -    Covered              
+            bin <data_max,data_max,Bins_invalid>          544          1          -    Covered              
+            bin <data_0,data_max,Bins_invalid>            492          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[XOR]> 
+                                                          242          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[XOR]> 
+                                                          248          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[OR]> 
+                                                          242          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[OR]>        326          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[ROTATE]> 
+                                                          216          1          -    Covered              
+            bin <data_0,data_max,Bins_shift[ROTATE]> 
+                                                          214          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[SHIFT]> 
+                                                          328          1          -    Covered              
+            bin <data_0,data_max,Bins_shift[SHIFT]> 
+                                                          278          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_invalid> 
+                                                         1722          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[XOR]> 
+                                                          754          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[OR]> 
+                                                          774          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[MULT]> 
+                                                         1032          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[ROTATE]> 
+                                                          782          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[ADD]> 
+                                                          916          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[SHIFT]> 
+                                                         1070          1          -    Covered              
+            bin <data_min,data_0,Bins_invalid>            582          1          -    Covered              
+            bin <data_min,data_0,Bins_bitwise[XOR]> 
+                                                          210          1          -    Covered              
+            bin <data_min,data_0,Bins_bitwise[OR]>        246          1          -    Covered              
+            bin <data_min,data_0,Bins_shift[ROTATE]> 
+                                                          276          1          -    Covered              
+            bin <data_min,data_0,Bins_shift[SHIFT]> 
+                                                          440          1          -    Covered              
+            bin <data_max,data_0,Bins_invalid>            544          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[XOR]> 
+                                                          330          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[OR]>        262          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[ROTATE]> 
+                                                          252          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[SHIFT]> 
+                                                          354          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[MULT]>          354          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[ADD]>           454          1          -    Covered              
+            bin <data_min,*,Bins_trans>                     0          1          4    ZERO                 
+            bin <data_max,*,Bins_trans>                     0          1          4    ZERO                 
+            bin <data_0,*,Bins_trans>                       0          1          3    ZERO                 
+            bin <*,Data_walkingones,Bins_trans>             0          1          4    ZERO                 
+            bin <*,data_min,Bins_trans>                     0          1          4    ZERO                 
+            bin <*,data_0,Bins_trans>                       0          1          3    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req1                              5932                     -    Occurred             
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_arith[MULT],log_cin>              41224          1          -    Covered              
+            bin <Bins_arith[ADD],log_cin>               41676          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req2                            220547                     -    Occurred             
+    Cross #cross__2#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_shift[SHIFT],log_serial_in>       41834          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req3                            261613                     -    Occurred             
+    Cross #cross__3#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_shift[ROTATE],log_direction>      40938          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_direction>       41834          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req4                            245675                     -    Occurred             
+    Cross #cross__4#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         4366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,data_min> 
+                                                         1432          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,Data_walkingones> 
+                                                         1482          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_min> 
+                                                          366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,Data_walkingones> 
+                                                         1458          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,data_min> 
+                                                          498          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,Data_walkingones> 
+                                                         1778          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_min> 
+                                                          614          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2250          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_min> 
+                                                          668          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,Data_walkingones> 
+                                                          748          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_min> 
+                                                          316          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,Data_walkingones> 
+                                                          800          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_min> 
+                                                          298          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,Data_walkingones> 
+                                                          870          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_min> 
+                                                          380          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2180          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_min> 
+                                                          730          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,Data_walkingones> 
+                                                          858          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_min> 
+                                                          280          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,Data_walkingones> 
+                                                          690          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_min> 
+                                                          224          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,Data_walkingones> 
+                                                          918          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_min> 
+                                                          270          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2234          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,data_min> 
+                                                          826          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2246          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,data_min> 
+                                                          822          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,Data_walkingones> 
+                                                          772          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_min> 
+                                                          326          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,Data_walkingones> 
+                                                          808          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_min> 
+                                                          278          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,data_min> 
+                                                          364          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,Data_walkingones> 
+                                                          792          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,data_min> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,Data_walkingones> 
+                                                          750          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_min> 
+                                                          308          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,Data_walkingones> 
+                                                          744          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_min> 
+                                                          246          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2094          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,data_min> 
+                                                          728          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2302          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,data_min> 
+                                                          798          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_min> 
+                                                          330          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,Data_walkingones> 
+                                                          856          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_min> 
+                                                          276          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,data_min> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,data_min> 
+                                                          324          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,Data_walkingones> 
+                                                          968          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_min> 
+                                                          344          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,Data_walkingones> 
+                                                          788          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_min> 
+                                                          248          1          -    Covered              
+            bin <Bins_trans,log_red_op_A,Data_walkingones,data_max> 
+                                                        25000          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,data_max> 
+                                                        26560          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_max> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,data_max> 
+                                                          528          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_max> 
+                                                          492          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_max> 
+                                                        25486          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_max> 
+                                                          122          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_max> 
+                                                          248          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_max> 
+                                                        25719          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_max> 
+                                                          220          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_max> 
+                                                          326          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,data_max> 
+                                                        25908          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,data_max> 
+                                                        25700          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_max> 
+                                                          222          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_max> 
+                                                          216          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,data_max> 
+                                                          318          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_max> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_max> 
+                                                          214          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,data_max> 
+                                                        25800          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,data_max> 
+                                                        25666          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_max> 
+                                                          316          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_max> 
+                                                          328          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,data_max> 
+                                                          342          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,data_max> 
+                                                          260          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_max> 
+                                                          278          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_0> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_0> 
+                                                          396          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_0> 
+                                                          754          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_0> 
+                                                          330          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_0> 
+                                                          378          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_0> 
+                                                          774          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_0> 
+                                                          262          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_0> 
+                                                          246          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_0> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_0> 
+                                                          252          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_0> 
+                                                          208          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_0> 
+                                                          250          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_0> 
+                                                          454          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_0> 
+                                                          334          1          -    Covered              
+            bin <Bins_trans,*,data_min,*>                   0          1          3    ZERO                 
+            bin <Bins_trans,*,data_max,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_0,*>                     0          1          4    ZERO                 
+            bin <Bins_trans,*,*,Data_walkingones>           0          1          4    ZERO                 
+            bin <Bins_trans,*,*,data_min>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,*,data_0>                     0          1          2    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req5                              5522                     -    Occurred             
+    Cross #cross__5#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         4366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_min> 
+                                                         1432          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,Data_walkingones> 
+                                                         1458          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_min> 
+                                                          498          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,Data_walkingones> 
+                                                         1482          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_min> 
+                                                          366          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2250          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_min> 
+                                                          668          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,Data_walkingones> 
+                                                          748          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_min> 
+                                                          316          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,Data_walkingones> 
+                                                          800          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_min> 
+                                                          298          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,Data_walkingones> 
+                                                          870          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_min> 
+                                                          380          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2180          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_min> 
+                                                          730          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,Data_walkingones> 
+                                                          858          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_min> 
+                                                          280          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,Data_walkingones> 
+                                                          690          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_min> 
+                                                          224          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,Data_walkingones> 
+                                                          918          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_min> 
+                                                          270          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2234          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_min> 
+                                                          826          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2246          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_min> 
+                                                          822          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_min> 
+                                                          364          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,Data_walkingones> 
+                                                          792          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_min> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2094          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_min> 
+                                                          728          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2302          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_min> 
+                                                          798          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_min> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_min> 
+                                                          324          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,Data_walkingones> 
+                                                          772          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_min> 
+                                                          326          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,Data_walkingones> 
+                                                          808          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_min> 
+                                                          278          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_min> 
+                                                          330          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,Data_walkingones> 
+                                                          856          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_min> 
+                                                          276          1          -    Covered              
+            bin <Bins_trans,log_red_op_B,Data_walkingones,data_max> 
+                                                        25000          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_max> 
+                                                        26560          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_0> 
+                                                         1722          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_max> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_0> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_max> 
+                                                          528          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_0> 
+                                                          582          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_0,data_max> 
+                                                          492          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_0,data_0> 
+                                                          396          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_max> 
+                                                        25486          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_0> 
+                                                          754          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_0> 
+                                                          330          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_max> 
+                                                          122          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_max> 
+                                                          248          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_0> 
+                                                          378          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_max> 
+                                                        25719          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_0> 
+                                                          774          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_0> 
+                                                          262          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_max> 
+                                                          220          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_0> 
+                                                          246          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_max> 
+                                                          326          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_0> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_max> 
+                                                        25908          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_0> 
+                                                         1032          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_max> 
+                                                        25700          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_0> 
+                                                          782          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_max> 
+                                                          222          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_max> 
+                                                          216          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_0> 
+                                                          252          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_max> 
+                                                          318          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_0> 
+                                                          412          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_0> 
+                                                          276          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_0,data_max> 
+                                                          290          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_0,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_0,data_max> 
+                                                          214          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_0,data_0> 
+                                                          208          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_max> 
+                                                        25800          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_0> 
+                                                          916          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_max> 
+                                                        25666          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_0> 
+                                                         1070          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_max> 
+                                                          316          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_0> 
+                                                          250          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_max> 
+                                                          328          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_max> 
+                                                          342          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_0> 
+                                                          340          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_max> 
+                                                          260          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_0> 
+                                                          440          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_0,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_0,data_0> 
+                                                          454          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_0,data_max> 
+                                                          278          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_0,data_0> 
+                                                          334          1          -    Covered              
+            bin <Bins_trans,*,data_max,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_min,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_0,*>                     0          1          2    ZERO                 
+            bin <Bins_trans,*,*,Data_walkingones>           0          1          3    ZERO                 
+            bin <Bins_trans,*,*,data_min>                   0          1          3    ZERO                 
+            bin <Bins_trans,*,*,data_0>                     0          1          4    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req6                              5028                     -    Occurred             
+    Cross #cross__6#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_bitwise[XOR],log_red_op_A,log_red_op_B> 
+                                                        40662          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,log_red_op_B> 
+                                                        40695          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req7                            222090                     -    Occurred             
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /pack_alsu/managing_inputs/cvr_gp                97.64%        100          -    Uncovered            
+    covered/total bins:                                   328        368          -                      
+    missing/total bins:                                    40        368          -                      
+    % Hit:                                             89.13%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_6                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_7                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_8                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_9                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ALSU_10                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                   87.03%        100          -    Uncovered            
+        covered/total bins:                                94        108          -                      
+        missing/total bins:                                14        108          -                      
+        % Hit:                                         87.03%        100          -                      
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__2#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__3#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__4#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+    Cross #cross__5#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+    Cross #cross__6#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/pack_alsu::managing_inputs::cvr_gp  
+                                                       97.64%        100          -    Uncovered            
+    covered/total bins:                                   328        368          -                      
+    missing/total bins:                                    40        368          -                      
+    % Hit:                                             89.13%        100          -                      
+    Coverpoint A_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                      17240          1          -    Covered              
+        bin data_max                                    16860          1          -    Covered              
+        bin data_min                                    16522          1          -    Covered              
+        bin Data_walkingones                           222995          1          -    Covered              
+        default bin data_default                        46352                     -    Occurred             
+    Coverpoint B_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin data_0                                      17786          1          -    Covered              
+        bin data_max                                   191083          1          -    Covered              
+        bin data_min                                    16152          1          -    Covered              
+        bin Data_walkingones                            47534          1          -    Covered              
+        default bin data_default                        47044                     -    Occurred             
+    Coverpoint ALU_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_shift[SHIFT]                           41834          1          -    Covered              
+        bin Bins_shift[ROTATE]                          40938          1          -    Covered              
+        bin Bins_arith[ADD]                             41676          1          -    Covered              
+        bin Bins_arith[MULT]                            41224          1          -    Covered              
+        bin Bins_bitwise[OR]                            40695          1          -    Covered              
+        bin Bins_bitwise[XOR]                           40662          1          -    Covered              
+        bin Bins_invalid                                56418          1          -    Covered              
+        bin Bins_trans                                  25000          1          -    Covered              
+    Coverpoint ALSU_6                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_cin                                    303447          1          -    Covered              
+    Coverpoint ALSU_7                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_serial_in                              303447          1          -    Covered              
+    Coverpoint ALSU_8                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_direction                              303447          1          -    Covered              
+    Coverpoint ALSU_9                                 100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_red_op_A                               303447          1          -    Covered              
+    Coverpoint ALSU_10                                100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin log_red_op_B                               303447          1          -    Covered              
+    Cross #cross__0#                                   87.03%        100          -    Uncovered            
+        covered/total bins:                                94        108          -                      
+        missing/total bins:                                14        108          -                      
+        % Hit:                                         87.03%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Data_walkingones,Data_walkingones,Bins_invalid> 
+                                                         4366          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_invalid> 
+                                                         1482          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_invalid> 
+                                                         1458          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_invalid> 
+                                                         1778          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[XOR]> 
+                                                         2250          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          748          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          800          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[XOR]> 
+                                                          870          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_bitwise[OR]> 
+                                                         2180          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_bitwise[OR]> 
+                                                          858          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_bitwise[OR]> 
+                                                          690          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_bitwise[OR]> 
+                                                          918          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[MULT]> 
+                                                         2234          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[MULT]> 
+                                                          772          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_arith[MULT]> 
+                                                          816          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[MULT]> 
+                                                          750          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[ROTATE]> 
+                                                         2246          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          808          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          792          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[ROTATE]> 
+                                                          744          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_arith[ADD]> 
+                                                         2094          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_arith[ADD]> 
+                                                          852          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_arith[ADD]> 
+                                                          816          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_arith[ADD]> 
+                                                          968          1          -    Covered              
+            bin <Data_walkingones,Data_walkingones,Bins_shift[SHIFT]> 
+                                                         2302          1          -    Covered              
+            bin <data_max,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          856          1          -    Covered              
+            bin <data_min,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          852          1          -    Covered              
+            bin <data_0,Data_walkingones,Bins_shift[SHIFT]> 
+                                                          788          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_invalid> 
+                                                         1432          1          -    Covered              
+            bin <data_min,data_min,Bins_invalid>          498          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_bitwise[XOR]> 
+                                                          668          1          -    Covered              
+            bin <data_min,data_min,Bins_bitwise[XOR]> 
+                                                          298          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_bitwise[OR]> 
+                                                          730          1          -    Covered              
+            bin <data_min,data_min,Bins_bitwise[OR]> 
+                                                          224          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_arith[MULT]> 
+                                                          826          1          -    Covered              
+            bin <data_min,data_min,Bins_arith[MULT]> 
+                                                          364          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_shift[ROTATE]> 
+                                                          822          1          -    Covered              
+            bin <data_min,data_min,Bins_shift[ROTATE]> 
+                                                          296          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_arith[ADD]> 
+                                                          728          1          -    Covered              
+            bin <data_min,data_min,Bins_arith[ADD]> 
+                                                          290          1          -    Covered              
+            bin <Data_walkingones,data_min,Bins_shift[SHIFT]> 
+                                                          798          1          -    Covered              
+            bin <data_min,data_min,Bins_shift[SHIFT]> 
+                                                          324          1          -    Covered              
+            bin <data_max,data_min,Bins_invalid>          366          1          -    Covered              
+            bin <data_0,data_min,Bins_invalid>            614          1          -    Covered              
+            bin <data_max,data_min,Bins_bitwise[XOR]> 
+                                                          316          1          -    Covered              
+            bin <data_0,data_min,Bins_bitwise[XOR]> 
+                                                          380          1          -    Covered              
+            bin <data_max,data_min,Bins_bitwise[OR]> 
+                                                          280          1          -    Covered              
+            bin <data_0,data_min,Bins_bitwise[OR]>        270          1          -    Covered              
+            bin <data_max,data_min,Bins_shift[ROTATE]> 
+                                                          278          1          -    Covered              
+            bin <data_0,data_min,Bins_shift[ROTATE]> 
+                                                          246          1          -    Covered              
+            bin <data_max,data_min,Bins_shift[SHIFT]> 
+                                                          276          1          -    Covered              
+            bin <data_0,data_min,Bins_shift[SHIFT]> 
+                                                          248          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_trans> 
+                                                        25000          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_invalid> 
+                                                        26560          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[XOR]> 
+                                                        25486          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_bitwise[OR]> 
+                                                        25719          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[MULT]> 
+                                                        25908          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[ROTATE]> 
+                                                        25700          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_arith[ADD]> 
+                                                        25800          1          -    Covered              
+            bin <Data_walkingones,data_max,Bins_shift[SHIFT]> 
+                                                        25666          1          -    Covered              
+            bin <data_min,data_max,Bins_invalid>          528          1          -    Covered              
+            bin <data_min,data_max,Bins_bitwise[XOR]> 
+                                                          122          1          -    Covered              
+            bin <data_min,data_max,Bins_bitwise[OR]> 
+                                                          220          1          -    Covered              
+            bin <data_min,data_max,Bins_shift[ROTATE]> 
+                                                          312          1          -    Covered              
+            bin <data_min,data_max,Bins_shift[SHIFT]> 
+                                                          260          1          -    Covered              
+            bin <data_max,data_max,Bins_invalid>          544          1          -    Covered              
+            bin <data_0,data_max,Bins_invalid>            492          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[XOR]> 
+                                                          242          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[XOR]> 
+                                                          248          1          -    Covered              
+            bin <data_max,data_max,Bins_bitwise[OR]> 
+                                                          242          1          -    Covered              
+            bin <data_0,data_max,Bins_bitwise[OR]>        326          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[ROTATE]> 
+                                                          216          1          -    Covered              
+            bin <data_0,data_max,Bins_shift[ROTATE]> 
+                                                          214          1          -    Covered              
+            bin <data_max,data_max,Bins_shift[SHIFT]> 
+                                                          328          1          -    Covered              
+            bin <data_0,data_max,Bins_shift[SHIFT]> 
+                                                          278          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_invalid> 
+                                                         1722          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[XOR]> 
+                                                          754          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_bitwise[OR]> 
+                                                          774          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[MULT]> 
+                                                         1032          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[ROTATE]> 
+                                                          782          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_arith[ADD]> 
+                                                          916          1          -    Covered              
+            bin <Data_walkingones,data_0,Bins_shift[SHIFT]> 
+                                                         1070          1          -    Covered              
+            bin <data_min,data_0,Bins_invalid>            582          1          -    Covered              
+            bin <data_min,data_0,Bins_bitwise[XOR]> 
+                                                          210          1          -    Covered              
+            bin <data_min,data_0,Bins_bitwise[OR]>        246          1          -    Covered              
+            bin <data_min,data_0,Bins_shift[ROTATE]> 
+                                                          276          1          -    Covered              
+            bin <data_min,data_0,Bins_shift[SHIFT]> 
+                                                          440          1          -    Covered              
+            bin <data_max,data_0,Bins_invalid>            544          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[XOR]> 
+                                                          330          1          -    Covered              
+            bin <data_max,data_0,Bins_bitwise[OR]>        262          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[ROTATE]> 
+                                                          252          1          -    Covered              
+            bin <data_max,data_0,Bins_shift[SHIFT]> 
+                                                          354          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[MULT]>          354          1          -    Covered              
+            bin <data_0,data_0,Bins_arith[ADD]>           454          1          -    Covered              
+            bin <data_min,*,Bins_trans>                     0          1          4    ZERO                 
+            bin <data_max,*,Bins_trans>                     0          1          4    ZERO                 
+            bin <data_0,*,Bins_trans>                       0          1          3    ZERO                 
+            bin <*,Data_walkingones,Bins_trans>             0          1          4    ZERO                 
+            bin <*,data_min,Bins_trans>                     0          1          4    ZERO                 
+            bin <*,data_0,Bins_trans>                       0          1          3    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req1                              5932                     -    Occurred             
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_arith[MULT],log_cin>              41224          1          -    Covered              
+            bin <Bins_arith[ADD],log_cin>               41676          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req2                            220547                     -    Occurred             
+    Cross #cross__2#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_shift[SHIFT],log_serial_in>       41834          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req3                            261613                     -    Occurred             
+    Cross #cross__3#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_shift[ROTATE],log_direction>      40938          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_direction>       41834          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req4                            245675                     -    Occurred             
+    Cross #cross__4#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         4366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,data_min> 
+                                                         1432          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,Data_walkingones> 
+                                                         1482          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_min> 
+                                                          366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,Data_walkingones> 
+                                                         1458          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,data_min> 
+                                                          498          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,Data_walkingones> 
+                                                         1778          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_min> 
+                                                          614          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2250          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_min> 
+                                                          668          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,Data_walkingones> 
+                                                          748          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_min> 
+                                                          316          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,Data_walkingones> 
+                                                          800          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_min> 
+                                                          298          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,Data_walkingones> 
+                                                          870          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_min> 
+                                                          380          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2180          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_min> 
+                                                          730          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,Data_walkingones> 
+                                                          858          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_min> 
+                                                          280          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,Data_walkingones> 
+                                                          690          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_min> 
+                                                          224          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,Data_walkingones> 
+                                                          918          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_min> 
+                                                          270          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2234          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,data_min> 
+                                                          826          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2246          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,data_min> 
+                                                          822          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,Data_walkingones> 
+                                                          772          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_min> 
+                                                          326          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,Data_walkingones> 
+                                                          808          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_min> 
+                                                          278          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,data_min> 
+                                                          364          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,Data_walkingones> 
+                                                          792          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,data_min> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,Data_walkingones> 
+                                                          750          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_min> 
+                                                          308          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,Data_walkingones> 
+                                                          744          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_min> 
+                                                          246          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2094          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,data_min> 
+                                                          728          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,Data_walkingones> 
+                                                         2302          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,data_min> 
+                                                          798          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_min> 
+                                                          330          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,Data_walkingones> 
+                                                          856          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_min> 
+                                                          276          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,data_min> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,data_min> 
+                                                          324          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,Data_walkingones> 
+                                                          968          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_min> 
+                                                          344          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,Data_walkingones> 
+                                                          788          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_min> 
+                                                          248          1          -    Covered              
+            bin <Bins_trans,log_red_op_A,Data_walkingones,data_max> 
+                                                        25000          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,Data_walkingones,data_max> 
+                                                        26560          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_max> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_min,data_max> 
+                                                          528          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_max> 
+                                                          492          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_max> 
+                                                        25486          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_max> 
+                                                          122          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_max> 
+                                                          248          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_max> 
+                                                        25719          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_max> 
+                                                          220          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_max> 
+                                                          326          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,Data_walkingones,data_max> 
+                                                        25908          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,Data_walkingones,data_max> 
+                                                        25700          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_max> 
+                                                          222          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_max> 
+                                                          216          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_min,data_max> 
+                                                          318          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_min,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_max> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_max> 
+                                                          214          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,Data_walkingones,data_max> 
+                                                        25800          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,Data_walkingones,data_max> 
+                                                        25666          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_max> 
+                                                          316          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_max> 
+                                                          328          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_min,data_max> 
+                                                          342          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_min,data_max> 
+                                                          260          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_max> 
+                                                          278          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_max,data_0> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_A,data_0,data_0> 
+                                                          396          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,Data_walkingones,data_0> 
+                                                          754          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_max,data_0> 
+                                                          330          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_min,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_A,data_0,data_0> 
+                                                          378          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,Data_walkingones,data_0> 
+                                                          774          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_max,data_0> 
+                                                          262          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_min,data_0> 
+                                                          246          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,data_0,data_0> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_max,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_max,data_0> 
+                                                          252          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_A,data_0,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_A,data_0,data_0> 
+                                                          208          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_max,data_0> 
+                                                          250          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_max,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_A,data_0,data_0> 
+                                                          454          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_A,data_0,data_0> 
+                                                          334          1          -    Covered              
+            bin <Bins_trans,*,data_min,*>                   0          1          3    ZERO                 
+            bin <Bins_trans,*,data_max,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_0,*>                     0          1          4    ZERO                 
+            bin <Bins_trans,*,*,Data_walkingones>           0          1          4    ZERO                 
+            bin <Bins_trans,*,*,data_min>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,*,data_0>                     0          1          2    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req5                              5522                     -    Occurred             
+    Cross #cross__5#                                   88.79%        100          -    Uncovered            
+        covered/total bins:                               103        116          -                      
+        missing/total bins:                                13        116          -                      
+        % Hit:                                         88.79%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         4366          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_min> 
+                                                         1432          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,Data_walkingones> 
+                                                         1458          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_min> 
+                                                          498          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,Data_walkingones> 
+                                                         1482          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_min> 
+                                                          366          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2250          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_min> 
+                                                          668          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,Data_walkingones> 
+                                                          748          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_min> 
+                                                          316          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,Data_walkingones> 
+                                                          800          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_min> 
+                                                          298          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,Data_walkingones> 
+                                                          870          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_min> 
+                                                          380          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2180          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_min> 
+                                                          730          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,Data_walkingones> 
+                                                          858          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_min> 
+                                                          280          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,Data_walkingones> 
+                                                          690          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_min> 
+                                                          224          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,Data_walkingones> 
+                                                          918          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_min> 
+                                                          270          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2234          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_min> 
+                                                          826          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2246          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_min> 
+                                                          822          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_min> 
+                                                          364          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,Data_walkingones> 
+                                                          792          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_min> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2094          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_min> 
+                                                          728          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,Data_walkingones> 
+                                                         2302          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_min> 
+                                                          798          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,Data_walkingones> 
+                                                          816          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_min> 
+                                                          290          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_min> 
+                                                          324          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,Data_walkingones> 
+                                                          772          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_min> 
+                                                          326          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,Data_walkingones> 
+                                                          808          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_min> 
+                                                          278          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,Data_walkingones> 
+                                                          852          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_min> 
+                                                          330          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,Data_walkingones> 
+                                                          856          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_min> 
+                                                          276          1          -    Covered              
+            bin <Bins_trans,log_red_op_B,Data_walkingones,data_max> 
+                                                        25000          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_max> 
+                                                        26560          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,Data_walkingones,data_0> 
+                                                         1722          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_max> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_max,data_0> 
+                                                          544          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_max> 
+                                                          528          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_min,data_0> 
+                                                          582          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_0,data_max> 
+                                                          492          1          -    Covered              
+            bin <Bins_invalid,log_red_op_B,data_0,data_0> 
+                                                          396          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_max> 
+                                                        25486          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,Data_walkingones,data_0> 
+                                                          754          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_max,data_0> 
+                                                          330          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_max> 
+                                                          122          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_min,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_max> 
+                                                          248          1          -    Covered              
+            bin <Bins_bitwise[XOR],log_red_op_B,data_0,data_0> 
+                                                          378          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_max> 
+                                                        25719          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,Data_walkingones,data_0> 
+                                                          774          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_max> 
+                                                          242          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_max,data_0> 
+                                                          262          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_max> 
+                                                          220          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_min,data_0> 
+                                                          246          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_max> 
+                                                          326          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_B,data_0,data_0> 
+                                                          296          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_max> 
+                                                        25908          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,Data_walkingones,data_0> 
+                                                         1032          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_max> 
+                                                        25700          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,Data_walkingones,data_0> 
+                                                          782          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_max> 
+                                                          222          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_max,data_0> 
+                                                          210          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_max> 
+                                                          216          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_max,data_0> 
+                                                          252          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_max> 
+                                                          318          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_min,data_0> 
+                                                          412          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_min,data_0> 
+                                                          276          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_0,data_max> 
+                                                          290          1          -    Covered              
+            bin <Bins_arith[MULT],log_red_op_B,data_0,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_0,data_max> 
+                                                          214          1          -    Covered              
+            bin <Bins_shift[ROTATE],log_red_op_B,data_0,data_0> 
+                                                          208          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_max> 
+                                                        25800          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,Data_walkingones,data_0> 
+                                                          916          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_max> 
+                                                        25666          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,Data_walkingones,data_0> 
+                                                         1070          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_max> 
+                                                          316          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_max,data_0> 
+                                                          250          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_max> 
+                                                          328          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_max,data_0> 
+                                                          354          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_max> 
+                                                          342          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_min,data_0> 
+                                                          340          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_max> 
+                                                          260          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_min,data_0> 
+                                                          440          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_0,data_max> 
+                                                          312          1          -    Covered              
+            bin <Bins_arith[ADD],log_red_op_B,data_0,data_0> 
+                                                          454          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_0,data_max> 
+                                                          278          1          -    Covered              
+            bin <Bins_shift[SHIFT],log_red_op_B,data_0,data_0> 
+                                                          334          1          -    Covered              
+            bin <Bins_trans,*,data_max,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_min,*>                   0          1          4    ZERO                 
+            bin <Bins_trans,*,data_0,*>                     0          1          2    ZERO                 
+            bin <Bins_trans,*,*,Data_walkingones>           0          1          3    ZERO                 
+            bin <Bins_trans,*,*,data_min>                   0          1          3    ZERO                 
+            bin <Bins_trans,*,*,data_0>                     0          1          4    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin req6                              5028                     -    Occurred             
+    Cross #cross__6#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_bitwise[XOR],log_red_op_A,log_red_op_B> 
+                                                        40662          1          -    Covered              
+            bin <Bins_bitwise[OR],log_red_op_A,log_red_op_B> 
+                                                        40695          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin req7                            222090                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 97.64%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 97.64%
+
